@@ -7,7 +7,7 @@ export default function ContentComponent() {
   return (
     <div>
       Current Theme {theme}
-      <button onClick={toggleTheme()}>Toggle Theme</button>
+      <button onClick={toggleTheme}>Toggle Theme</button>
     </div>
   );
 }
